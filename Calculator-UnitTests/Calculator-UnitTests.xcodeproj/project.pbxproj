@@ -16,6 +16,7 @@
 		1ED56A42297CA81B0050A61C /* Calculator_UnitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A41297CA81B0050A61C /* Calculator_UnitTestsTests.swift */; };
 		1ED56A4C297CA81B0050A61C /* Calculator_UnitTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A4B297CA81B0050A61C /* Calculator_UnitTestsUITests.swift */; };
 		1ED56A4E297CA81B0050A61C /* Calculator_UnitTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A4D297CA81B0050A61C /* Calculator_UnitTestsUITestsLaunchTests.swift */; };
+		1ED56A5C297CA9860050A61C /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED56A5B297CA9860050A61C /* CombineCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED56A5C297CA9860050A61C /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "Calculator-UnitTests";
+			packageProductDependencies = (
+				1ED56A5B297CA9860050A61C /* CombineCocoa */,
+			);
 			productName = "Calculator-UnitTests";
 			productReference = 1ED56A27297CA8190050A61C /* Calculator-UnitTests.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 1ED56A1E297CA8190050A61C;
+			packageReferences = (
+				1ED56A5A297CA9860050A61C /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+			);
 			productRefGroup = 1ED56A28297CA8190050A61C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1ED56A5A297CA9860050A61C /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ED56A5B297CA9860050A61C /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED56A5A297CA9860050A61C /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1ED56A1F297CA8190050A61C /* Project object */;
 }
