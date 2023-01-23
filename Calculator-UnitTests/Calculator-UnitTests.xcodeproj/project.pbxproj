@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E31B7D9297E14890050506D /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E31B7D8297E14890050506D /* LabelFactory.swift */; };
 		1ED56A2B297CA8190050A61C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A2A297CA8190050A61C /* AppDelegate.swift */; };
 		1ED56A2D297CA8190050A61C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A2C297CA8190050A61C /* SceneDelegate.swift */; };
 		1ED56A2F297CA8190050A61C /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A2E297CA8190050A61C /* CalculatorVC.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E31B7D8297E14890050506D /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		1ED56A27297CA8190050A61C /* Calculator-UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-UnitTests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED56A2A297CA8190050A61C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ED56A2C297CA8190050A61C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E31B7D7297E146E0050506D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1E31B7D8297E14890050506D /* LabelFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		1ED56A1E297CA8190050A61C = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		1ED56A29297CA8190050A61C /* Calculator-UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E31B7D7297E146E0050506D /* Factory */,
 				1ED56A7D297CC6B30050A61C /* Extensions */,
 				1ED56A78297CC63F0050A61C /* config */,
 				1ED56A6D297CBACF0050A61C /* View */,
@@ -345,6 +356,7 @@
 				1ED56A7C297CC65F0050A61C /* ThemeFont.swift in Sources */,
 				1ED56A2D297CA8190050A61C /* SceneDelegate.swift in Sources */,
 				1ED56A7F297CC6C50050A61C /* UIColor+Extensions.swift in Sources */,
+				1E31B7D9297E14890050506D /* LabelFactory.swift in Sources */,
 				1ED56A77297CBCAB0050A61C /* SplitInputView.swift in Sources */,
 				1ED56A75297CBC970050A61C /* TipInputView.swift in Sources */,
 			);
