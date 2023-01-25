@@ -55,9 +55,15 @@ class ResultView: UIView {
     
     private lazy var hStackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [
-            AmountView(),
+            AmountView(
+                title: "Total bill",
+                textAlignment: .left
+            ),
             UIView(),
-            AmountView()
+            AmountView(
+                title: "Total Tip",
+                textAlignment: .right
+            )
         ])
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
@@ -69,7 +75,7 @@ class ResultView: UIView {
         super.init(frame: .zero)
         addSubViews()
         setupConstraints()
-        backgroundColor = .lightGray
+        backgroundColor = .white
     }
     
     required init?(coder: NSCoder) {
