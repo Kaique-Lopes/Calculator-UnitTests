@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3172C02981E1BD000783CB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3172BF2981E1BD000783CB /* UIView+Extensions.swift */; };
 		1E31B7D9297E14890050506D /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E31B7D8297E14890050506D /* LabelFactory.swift */; };
 		1ED56A2B297CA8190050A61C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A2A297CA8190050A61C /* AppDelegate.swift */; };
 		1ED56A2D297CA8190050A61C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A2C297CA8190050A61C /* SceneDelegate.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3172BF2981E1BD000783CB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		1E31B7D8297E14890050506D /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		1ED56A27297CA8190050A61C /* Calculator-UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-UnitTests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED56A2A297CA8190050A61C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				1ED56A7E297CC6C50050A61C /* UIColor+Extensions.swift */,
+				1E3172BF2981E1BD000783CB /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3172C02981E1BD000783CB /* UIView+Extensions.swift in Sources */,
 				1ED56A2F297CA8190050A61C /* CalculatorVC.swift in Sources */,
 				1ED56A6F297CBAEB0050A61C /* LogoView.swift in Sources */,
 				1ED56A7A297CC6540050A61C /* ThemeColor.swift in Sources */,

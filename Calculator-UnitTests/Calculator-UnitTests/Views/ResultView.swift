@@ -43,7 +43,9 @@ class ResultView: UIView {
         let stackView = UIStackView(arrangedSubviews: [
             headerLabel,
             amountPersonLabel,
-            dividerView
+            dividerView,
+            buildDividerView(height: 0),
+            hStackView
         ])
         stackView.axis = .vertical
         stackView.spacing = 8
@@ -79,6 +81,7 @@ class ResultView: UIView {
     }
     
     private func setupConstraints() {
+        backgroundColor = .white
         vStackView.snp.makeConstraints { make in
             make.top.equalTo(snp.top).offset(24)
             make.leading.equalTo(snp.leading).offset(24)
@@ -89,6 +92,19 @@ class ResultView: UIView {
         dividerView.snp.makeConstraints { make in
             make.height.equalTo(2)
         }
+        
+        addShadow(
+            offset: CGSize(width: 0, height: 3),
+            color: .black,
+            radius: 12.0,
+            opacity: 0.1
+        )
+    }
+    
+    private func buildDividerView(height: CGFloat) -> UIView {
+        let view = UIView()
+        view.heightAnchor.constraint(equalToConstant: height).isActive = true
+        return view
     }
     
 }

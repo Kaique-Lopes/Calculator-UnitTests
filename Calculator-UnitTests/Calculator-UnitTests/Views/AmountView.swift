@@ -10,7 +10,7 @@ import UIKit
 class AmountView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .systemBrown
+        backgroundColor = .black
     }
     
     required init?(coder: NSCoder) {
