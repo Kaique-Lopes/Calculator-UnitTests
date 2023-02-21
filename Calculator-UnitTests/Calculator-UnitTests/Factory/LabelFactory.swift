@@ -12,7 +12,7 @@ struct LabelFactory {
                       font: UIFont,
                       backGroundColor: UIColor = .clear,
                       textColor: UIColor = ThemeColor.text,
-                      textAlignment: NSTextAlignment = .center) -> UILabel{
+                      textAlignment: NSTextAlignment = .center) -> UILabel {
         let label = UILabel()
         label.text = text
         label.font = font

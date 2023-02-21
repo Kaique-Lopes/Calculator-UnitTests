@@ -33,6 +33,16 @@ class ResultView: UIView {
         return label
     }()
     
+//    private lazy var textField: UITextField = {
+//        let tf = TextFieldFactory.build(
+//            font: ThemeFont.demiBold(ofSize: 24),
+//            keyboard: .decimalPad,
+//            textColor: ThemeColor.text,
+//            tintColor: ThemeColor.text
+//        )
+//        return tf
+//    }() 
+    
     private lazy var dividerView: UIView = {
         let view = UIView()
         view.backgroundColor = ThemeColor.divider
