@@ -30,6 +30,7 @@
 		1ED56A7A297CC6540050A61C /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A79297CC6540050A61C /* ThemeColor.swift */; };
 		1ED56A7C297CC65F0050A61C /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A7B297CC65F0050A61C /* ThemeFont.swift */; };
 		1ED56A7F297CC6C50050A61C /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56A7E297CC6C50050A61C /* UIColor+Extensions.swift */; };
+		1EDA9CA629A449B600978DEB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA9CA529A449B600978DEB /* HeaderView.swift */; };
 		1EE622EF297F6D5200383AE7 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE622EE297F6D5200383AE7 /* AmountView.swift */; };
 		1EF235CB298F48BE00E98B27 /* TextFieldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF235CA298F48BE00E98B27 /* TextFieldFactory.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		1ED56A79297CC6540050A61C /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		1ED56A7B297CC65F0050A61C /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		1ED56A7E297CC6C50050A61C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		1EDA9CA529A449B600978DEB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1EE622EE297F6D5200383AE7 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		1EF235CA298F48BE00E98B27 /* TextFieldFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +198,7 @@
 				1ED56A74297CBC970050A61C /* TipInputView.swift */,
 				1ED56A76297CBCAB0050A61C /* SplitInputView.swift */,
 				1EE622EE297F6D5200383AE7 /* AmountView.swift */,
+				1EDA9CA529A449B600978DEB /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				1E31B7D9297E14890050506D /* LabelFactory.swift in Sources */,
 				1ED56A77297CBCAB0050A61C /* SplitInputView.swift in Sources */,
 				1ED56A75297CBC970050A61C /* TipInputView.swift in Sources */,
+				1EDA9CA629A449B600978DEB /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
